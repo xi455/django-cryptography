@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "0904-cryptography"
+version = "0.1.0"
+description = ""
+authors = ["hung_xi mac <a3083493@gmail.com>"]
+readme = "README.md"
+packages = [{include = "0904_cryptography"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.4"
+isort = "^5.12.0"
+black = "^23.7.0"
+django-cryptography = "^1.1"
+ipython = "^8.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
